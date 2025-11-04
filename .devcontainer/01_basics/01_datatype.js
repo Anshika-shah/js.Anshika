@@ -1,0 +1,14 @@
+"user strict";
+console.log(3+3);
+//alert(3+3);
+console.log("anshika! here");
+let name = "anshika";
+let age = 18;
+let isLoggedIn = false;
+let state;
+console.log(typeof "anshika");
+console.log(typeof 18);
+console.log(typeof age);
+console.log(typeof state);
+console.log(typeof state);
+console.log(typeof null);
