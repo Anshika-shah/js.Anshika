@@ -28,3 +28,9 @@ console.log(typeof scored);
 let scoredStr = Number(scored);
 console.log(typeof scoredStr);
 console.log(scoredStr);
+
+let isboolean = 1;
+console.log(typeof isboolean);
+let isbooleanStr = String(isboolean);
+console.log(typeof isbooleanStr);
+console.log(isbooleanStr);  
