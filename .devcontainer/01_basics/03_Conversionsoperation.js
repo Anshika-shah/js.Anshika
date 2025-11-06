@@ -1,4 +1,4 @@
-let score = 33;
+/*let score = 33;
 console.log(typeof score);
 let scoreStr = String(score);
 console.log(typeof scoreStr);
@@ -44,7 +44,7 @@ let scoree = null; --> 0
 let scoree = undefined; --> NaN
 */
 
-console.log("\n");
+/*console.log("\n");
 
 let scoree = undefined;
 console.log(typeof scoree);
@@ -77,7 +77,7 @@ let isbooleanb = null; --> false
 let isbooleanb = undefined; --> false
 */
 
-console.log("\n");
+/*console.log("\n");
 
 let isbooleanb = undefined;
 console.log(typeof isbooleanb);
@@ -91,5 +91,79 @@ let obj = null;
 console.log(typeof obj);
 let objStr = String(obj);
 console.log(typeof objStr);
-console.log(objStr);
+console.log(objStr);*/
+
+//****************************************** OPERATIONS ******************************************************* 
+
+let value = 3;
+//console.log(value);
+let negValue = -value;
+//console.log(negValue);
+
+/*console.log(3+3);
+console.log("3"+"3");
+console.log("anshika"+" "+"shah")
+console.log("3"+3)
+console.log(+"3"+3)
+console.log(3-3);
+console.log("3"-3);
+console.log("anshika"-"shah") //NaN
+console.log("3"-"anshika") //NaN
+console.log("3"*3);
+console.log("3"/3);
+console.log("3"%3);
+console.log("3"+null);
+console.log("3"-null);
+console.log(true+true);
+console.log(true+false);
+console.log(false+true);
+console.log(false-false);
+console.log(true+"anshika");
+console.log(false+"anshika");
+console.log(true+3);
+console.log(false+3);
+console.log(true-3);
+console.log(false-3);
+console.log(null+null);
+console.log(null+"anshika");
+console.log(null-3);
+console.log(undefined+3);
+console.log(undefined+"anshika");
+console.log(undefined-3);
+console.log(NaN+3);
+console.log(NaN+"anshika");
+console.log(NaN-3);
+console.log(NaN+NaN);
+console.log(Infinity+3);
+console.log(Infinity+"anshika");
+console.log(Infinity-3);
+console.log(-Infinity+3);
+console.log(-Infinity+"anshika");
+console.log(-Infinity-3);
+console.log("3"+Infinity);
+console.log("3"-Infinity);
+console.log("3"+-Infinity);
+console.log("3"- -Infinity);
+*/
+
+let str1 = "hello!";
+let str2 = " World";
+let fullStr = str1 + str2;
+//console.log(fullStr);
+
+/*console.log(1+1+"2");
+console.log("2"+1+1);
+console.log(1+"2"+1);
+console.log("1"+(2+1));
+console.log(""+1+0);
+console.log(""-1+0);
+*/
+
+let gameCounter = "100";
+++gameCounter; // converts to number and then adds 1
+console.log(gameCounter);
+gameCounter += 1; // adds 1 to the number
+console.log(gameCounter);
+
+
 
